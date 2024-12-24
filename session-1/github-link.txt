@@ -1,2 +1,2 @@
-order-service=https://effective-computing-machine-4vvv97j95v637wjj-3000.app.github.dev/
-inventory-service=https://effective-computing-machine-4vvv97j95v637wjj-4000.app.github.dev/
+order-service=https://hub.docker.com/repository/docker/arshik472/order-service
+inventory-service=https://hub.docker.com/repository/docker/arshik472/inventory-service
