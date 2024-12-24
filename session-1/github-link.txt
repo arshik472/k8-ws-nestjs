@@ -1,0 +1,2 @@
+order-service=https://effective-computing-machine-4vvv97j95v637wjj-3000.app.github.dev/
+inventory-service=https://effective-computing-machine-4vvv97j95v637wjj-4000.app.github.dev/
