@@ -1,0 +1,6 @@
+docker network create coffee-app
+docker network ls
+docker network inspect coffee-app
+docker run --name inventory-service --network coffee-app -p 3000:3000 -d inventory-service
+docker run --name order-service --network coffee-app -p 4000:4000 -e INVENTORY_URL=http://inventory-service:3000 -d order-service
+docker container ls -a
